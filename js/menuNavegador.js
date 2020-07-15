@@ -1,6 +1,19 @@
 !(function($) {
     "use strict";
 
+      // Hero typed
+  if ($('.typed').length) {
+    var typed_strings = $(".typed").data('typed-items');
+    typed_strings = typed_strings.split(',')
+    new Typed('.typed', {
+      strings: typed_strings,
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 50,
+      backDelay: 2000
+    });
+  }
+
 //Sirve para que se pueda desplazar el menu a la hora de minimizar 
 //el navegador o entrar desde un dispositivo movil
 //y para direccionar a las clases .scrollto
