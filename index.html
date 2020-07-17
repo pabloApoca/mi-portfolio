@@ -303,9 +303,6 @@
 
         <div class="section-title">
           <h2>Contacto</h2>
-          <p>
-
-          </p>
         </div>
 
         <div class="row" data-aos="fade-in">
@@ -331,35 +328,24 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="enviar2.php" method="post" role="form" class="php-email-form">
+            <form action="enviar.php" method="POST" class="php-email-form">
               <div class="form-row">
                 <div class="form-group col-md-6">
                   <label for="name">Nombre y Apellido</label>
-                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres." />
-                  <div class="validate"></div>
+                  <input type="text" name="nombre" class="form-control" id="name" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres." />
+                 <!-- <div class="validate"></div>-->
                 </div>
                 <div class="form-group col-md-6">
                   <label for="name">Tu Email</label>
                   <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Por favor introduzca una dirección de correo electrónico válida" />
-                  <div class="validate"></div>
+                 <!-- <div class="validate"></div>-->
                 </div>
               </div>
-             <!-- <div class="form-group">
-                <label for="name">Asunto </label>
-                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Por favor ingrese al menos 8 caracteres del asunto." />
-                <div class="validate"></div>
-              </div>-->
               <div class="form-group">
                 <label for="name">Mensaje</label>
-                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Cargando</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Tu mensaje ha sido enviado. ¡Gracias!</div>
-              </div>
-              <div class="text-center"><button type="submit">Enviar mensaje</button></div>
+                <textarea class="form-control" name="mensaje" rows="10" data-rule="required" data-msg="Por favor escribe algo para mi."></textarea>
+
+              <div class="text-center mt-4 "><button type="submit">Enviar mensaje</button></div>
             </form>
           </div>
 

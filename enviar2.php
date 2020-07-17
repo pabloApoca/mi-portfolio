@@ -1,5 +1,5 @@
 <?php
-$nombre = $_POST['name'];
+$nombre = $_POST['nombre'];
 $mail = $_POST['email'];
 $empresa = $_POST['message'];
 
@@ -13,10 +13,12 @@ $mensaje .= "Su e-mail es: " . $mail . " \r\n";
 $mensaje .= "Mensaje: " . $_POST['message'] . " \r\n";
 $mensaje .= "Enviado el " . date('d/m/Y', time());
 
-$para = 'pablo_mtv08@hotmail.com';
+$para = 'pablo.mtv08@gmail.com';
 $asunto = 'Mensaje de mi sitio web';
 
 mail($para, $asunto, utf8_decode($mensaje), $header);
 
-header("Location:index.html");
+
+
+header("index.html");
 ?>
