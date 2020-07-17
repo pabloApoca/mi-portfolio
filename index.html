@@ -48,6 +48,7 @@
               <li><a href="#habilidades"><i class="bx bx-server"></i> Habilidades</a></li>
               <li><a href="#formacion"><i class="bx bx-file-blank"></i> <span> Formación/Experiencia </span></a></li>
               <li><a href="#cv"><i class="bx bx-download"></i> Curriculum vitae</a></li>
+              <li><a href="#contacto"><i class="bx bx-envelope"></i> Contacto</a></li>
     
             </ul>
           </nav><!-- .nav-menu -->
@@ -294,6 +295,85 @@
   
       </div>
      </section><!-- Final de la seccion cv -->
+
+
+     <!-- =======  Seccion de contacto ======= -->
+    <section id="contacto" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contacto</h2>
+          <p>
+
+          </p>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>Pablo_mtv08@hotmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Número:</h4>
+                <p>+5411 65428432</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="enviar2.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="name">Nombre y Apellido</label>
+                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres." />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Tu Email</label>
+                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Por favor introduzca una dirección de correo electrónico válida" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+             <!-- <div class="form-group">
+                <label for="name">Asunto </label>
+                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Por favor ingrese al menos 8 caracteres del asunto." />
+                <div class="validate"></div>
+              </div>-->
+              <div class="form-group">
+                <label for="name">Mensaje</label>
+                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Cargando</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Tu mensaje ha sido enviado. ¡Gracias!</div>
+              </div>
+              <div class="text-center"><button type="submit">Enviar mensaje</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- Final de la seccion contacto -->
+
+
+
+
+
+
+
 
 
     </main><!-- End #main -->
