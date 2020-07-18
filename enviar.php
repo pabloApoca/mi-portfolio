@@ -11,7 +11,13 @@ $header = 'De: ' . $email . " \r\n";
 $mensajeCompleto ="\n". $mensaje . "\n\nDe: " . $nombre. "\nemail: " . $email;
 
 mail($destinatario, $asunto, $mensajeCompleto, $header);
-echo"<script>alert('Correo enviado exitosamente')</script>";
-echo"<script>setTimeout(\"location.href='https://pablolopez9408.000webhostapp.com'\",1000)</script>" ;
+echo"<script class=\"alert alert-success\" >alert('Correo enviado exitosamente')</script>";
+echo"<div class=\"alert alert-success\">Correo enviado exitosamente</div>";
+echo"<script>setTimeout(\"location.href='index.html'\",1000)</script>" ;
+
+
 
 ?>
+
+
+
