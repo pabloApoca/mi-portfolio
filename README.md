@@ -1,3 +1,6 @@
-# Das_port_PL
+# Mi Portfolio Website
 
-Desarrollo web con html..
+Mi portafolio web está hecho con HTML5 - CSS - Bootstrap - Javascript y PHP.
+
+
+Donde encontrarás información, mi formación académica y experiencias laborales.
